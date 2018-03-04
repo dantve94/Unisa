@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>386</width>
-    <height>329</height>
+    <width>380</width>
+    <height>388</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Event Description</string>
+     <string>Event Description:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Event Date</string>
+     <string>Event Date:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -50,46 +50,46 @@
      </rect>
     </property>
     <property name="text">
-     <string>Event Type</string>
+     <string>Event Type:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>170</y>
+      <y>210</y>
       <width>91</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Duration in hours</string>
+     <string>Duration in hours:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>200</y>
+      <y>240</y>
       <width>46</width>
       <height>13</height>
      </rect>
     </property>
     <property name="text">
-     <string>Suburb</string>
+     <string>Suburb:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>230</y>
+      <y>270</y>
       <width>46</width>
       <height>13</height>
      </rect>
     </property>
     <property name="text">
-     <string>City</string>
+     <string>City:</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
@@ -106,7 +106,7 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>200</y>
+      <y>240</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -116,7 +116,7 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>230</y>
+      <y>270</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -139,7 +139,7 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>170</y>
+      <y>210</y>
       <width>42</width>
       <height>22</height>
      </rect>
@@ -155,7 +155,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Organizer</string>
+     <string>Organizer:</string>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBox">
@@ -202,7 +202,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>260</y>
+      <y>310</y>
       <width>111</width>
       <height>23</height>
      </rect>
@@ -211,13 +211,36 @@
      <string>Add event details</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Entrance Fee:</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>386</width>
+     <width>380</width>
      <height>21</height>
     </rect>
    </property>
